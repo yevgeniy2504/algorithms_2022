@@ -21,6 +21,7 @@ def func_1(nums):
         if nums[i] % 2 == 0:
             new_arr.append(i)
     return new_arr
+<<<<<<< HEAD
 
 
 def func_2(nums):
@@ -67,3 +68,5 @@ print(timeit("func_2([1, 2, 3, 4])", globals=globals()))
 print(timeit("func_3([1, 2, 3, 4])", globals=globals()))
 print(timeit("func_4([1, 2, 3, 4])", globals=globals()))
 print(timeit("func_5([1, 2, 3, 4])", globals=globals()))
+=======
+>>>>>>> Lesson-4

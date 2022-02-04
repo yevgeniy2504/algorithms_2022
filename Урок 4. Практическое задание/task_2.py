@@ -50,7 +50,10 @@ def memoize(f):
     def decorate(*args):
 
         if args in cache:
+<<<<<<< HEAD
             print(cache[args])
+=======
+>>>>>>> Lesson-4
             return cache[args]
         else:
             cache[args] = f(*args)
